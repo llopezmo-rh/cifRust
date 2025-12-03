@@ -1,0 +1,12 @@
+[package]
+name = "cifras-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cifras-core = { path = "../core" }
+
+# Dependencies only for the CLI
+colored = "2.0"
+console = "0.15"
+rand = "0.8"
